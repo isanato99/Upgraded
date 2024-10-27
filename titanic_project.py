@@ -9,6 +9,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.impute import KNNImputer
 from sklearn.metrics import mean_squared_error
 import warnings
+import matplotlib as plt
 
 # Load and preprocess the Titanic dataset
 df = pd.read_csv('titanic.csv')
